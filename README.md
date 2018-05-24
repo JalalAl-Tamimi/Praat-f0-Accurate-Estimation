@@ -7,7 +7,7 @@ the floor and ceiling to a specific speaker's range. The script works iterativel
 then saves a fle with details of each of the floor and ceiling per "file" and speaker. The pitch object adapted to each speaker is saved 
 alongside a smoothed pitch object.
 
-An example of a TextGrid and Sound file are provided in addition to a an excel sheet.
+An example of a TextGrid and Sound file are provided in addition to an excel sheet. Sound file and TextGrid courtesy of Hajar Moussa.
 
 See the following references for more details on the method:
 
