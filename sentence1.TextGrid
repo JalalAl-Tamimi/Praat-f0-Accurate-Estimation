@@ -1,0 +1,415 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.7415202084957855 
+tiers? <exists> 
+size = 11 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2601246969093154 
+            text = "gabil" 
+        intervals [2]:
+            xmin = 0.2601246969093154 
+            xmax = 0.483845763887075 
+            text = "?ams" 
+        intervals [3]:
+            xmin = 0.483845763887075 
+            xmax = 0.8871557766250362 
+            text = "riːta:l" 
+        intervals [4]:
+            xmin = 0.8871557766250362 
+            xmax = 1.2379185182651327 
+            text = "xaraZat" 
+        intervals [5]:
+            xmin = 1.2379185182651327 
+            xmax = 1.4127972265365543 
+            text = "ma?-" 
+        intervals [6]:
+            xmin = 1.4127972265365543 
+            xmax = 1.7415202084957855 
+            text = "la:na" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "orthography" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2601246969093154 
+            text = "gabil" 
+        intervals [2]:
+            xmin = 0.2601246969093154 
+            xmax = 0.483845763887075 
+            text = "2ams" 
+        intervals [3]:
+            xmin = 0.483845763887075 
+            xmax = 0.8871557766250362 
+            text = "riitaal" 
+        intervals [4]:
+            xmin = 0.8871557766250362 
+            xmax = 1.2379185182651327 
+            text = "xarajat" 
+        intervals [5]:
+            xmin = 1.2379185182651327 
+            xmax = 1.4127972265365543 
+            text = "ma3" 
+        intervals [6]:
+            xmin = 1.4127972265365543 
+            xmax = 1.7415202084957855 
+            text = "laana" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "phon" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 28 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03512232194555054 
+            text = "g" 
+        intervals [2]:
+            xmin = 0.03512232194555054 
+            xmax = 0.1146963326034438 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.1146963326034438 
+            xmax = 0.15640408991384902 
+            text = "b" 
+        intervals [4]:
+            xmin = 0.15640408991384902 
+            xmax = 0.21786815331859088 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.21786815331859088 
+            xmax = 0.2601246969093154 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.2601246969093154 
+            xmax = 0.29835600111198346 
+            text = "?" 
+        intervals [7]:
+            xmin = 0.29835600111198346 
+            xmax = 0.36192259167410157 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.36192259167410157 
+            xmax = 0.4212841279214672 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.4212841279214672 
+            xmax = 0.483845763887075 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.483845763887075 
+            xmax = 0.5534937181422492 
+            text = "r" 
+        intervals [11]:
+            xmin = 0.5534937181422492 
+            xmax = 0.6619225916740561 
+            text = "i:" 
+        intervals [12]:
+            xmin = 0.6619225916740561 
+            xmax = 0.7175808159817052 
+            text = "t" 
+        intervals [13]:
+            xmin = 0.7175808159817052 
+            xmax = 0.8333747211459013 
+            text = "a:" 
+        intervals [14]:
+            xmin = 0.8333747211459013 
+            xmax = 0.8871557766250362 
+            text = "l" 
+        intervals [15]:
+            xmin = 0.8871557766250362 
+            xmax = 0.9541960112986772 
+            text = "x" 
+        intervals [16]:
+            xmin = 0.9541960112986772 
+            xmax = 1.0119225916740788 
+            text = "a" 
+        intervals [17]:
+            xmin = 1.0119225916740788 
+            xmax = 1.0354163807977557 
+            text = "r" 
+        intervals [18]:
+            xmin = 1.0354163807977557 
+            xmax = 1.0719225916740243 
+            text = "a" 
+        intervals [19]:
+            xmin = 1.0719225916740243 
+            xmax = 1.1106001012124125 
+            text = "Z" 
+        intervals [20]:
+            xmin = 1.1106001012124125 
+            xmax = 1.171922591674047 
+            text = "a" 
+        intervals [21]:
+            xmin = 1.171922591674047 
+            xmax = 1.2379185182651327 
+            text = "t" 
+        intervals [22]:
+            xmin = 1.2379185182651327 
+            xmax = 1.285478809483834 
+            text = "m" 
+        intervals [23]:
+            xmin = 1.285478809483834 
+            xmax = 1.35407709453375 
+            text = "a" 
+        intervals [24]:
+            xmin = 1.35407709453375 
+            xmax = 1.4127972265365543 
+            text = "?-" 
+        intervals [25]:
+            xmin = 1.4127972265365543 
+            xmax = 1.4484683347625378 
+            text = "l" 
+        intervals [26]:
+            xmin = 1.4484683347625378 
+            xmax = 1.6048724246762731 
+            text = "a:" 
+        intervals [27]:
+            xmin = 1.6048724246762731 
+            xmax = 1.6432874643043078 
+            text = "n" 
+        intervals [28]:
+            xmin = 1.6432874643043078 
+            xmax = 1.7415202084957855 
+            text = "a" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phonUnicode" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 28 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03512232194555054 
+            text = "ɡ" 
+        intervals [2]:
+            xmin = 0.03512232194555054 
+            xmax = 0.1146963326034438 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.1146963326034438 
+            xmax = 0.15640408991384902 
+            text = "b" 
+        intervals [4]:
+            xmin = 0.15640408991384902 
+            xmax = 0.21786815331859088 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.21786815331859088 
+            xmax = 0.2601246969093154 
+            text = "l" 
+        intervals [6]:
+            xmin = 0.2601246969093154 
+            xmax = 0.29835600111198346 
+            text = "ʔ" 
+        intervals [7]:
+            xmin = 0.29835600111198346 
+            xmax = 0.36192259167410157 
+            text = "a" 
+        intervals [8]:
+            xmin = 0.36192259167410157 
+            xmax = 0.4212841279214672 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.4212841279214672 
+            xmax = 0.483845763887075 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.483845763887075 
+            xmax = 0.5534937181422492 
+            text = "r" 
+        intervals [11]:
+            xmin = 0.5534937181422492 
+            xmax = 0.6619225916740561 
+            text = "iː" 
+        intervals [12]:
+            xmin = 0.6619225916740561 
+            xmax = 0.7175808159817052 
+            text = "t" 
+        intervals [13]:
+            xmin = 0.7175808159817052 
+            xmax = 0.8333747211459013 
+            text = "aː" 
+        intervals [14]:
+            xmin = 0.8333747211459013 
+            xmax = 0.8871557766250362 
+            text = "l" 
+        intervals [15]:
+            xmin = 0.8871557766250362 
+            xmax = 0.9541960112986772 
+            text = "x" 
+        intervals [16]:
+            xmin = 0.9541960112986772 
+            xmax = 1.0119225916740788 
+            text = "a" 
+        intervals [17]:
+            xmin = 1.0119225916740788 
+            xmax = 1.0354163807977557 
+            text = "r" 
+        intervals [18]:
+            xmin = 1.0354163807977557 
+            xmax = 1.0719225916740243 
+            text = "a" 
+        intervals [19]:
+            xmin = 1.0719225916740243 
+            xmax = 1.1106001012124125 
+            text = "ʒ" 
+        intervals [20]:
+            xmin = 1.1106001012124125 
+            xmax = 1.171922591674047 
+            text = "a" 
+        intervals [21]:
+            xmin = 1.171922591674047 
+            xmax = 1.2379185182651327 
+            text = "t" 
+        intervals [22]:
+            xmin = 1.2379185182651327 
+            xmax = 1.285478809483834 
+            text = "m" 
+        intervals [23]:
+            xmin = 1.285478809483834 
+            xmax = 1.35407709453375 
+            text = "a" 
+        intervals [24]:
+            xmin = 1.35407709453375 
+            xmax = 1.4127972265365543 
+            text = "ʕ" 
+        intervals [25]:
+            xmin = 1.4127972265365543 
+            xmax = 1.4484683347625378 
+            text = "l" 
+        intervals [26]:
+            xmin = 1.4484683347625378 
+            xmax = 1.6048724246762731 
+            text = "aː" 
+        intervals [27]:
+            xmin = 1.6048724246762731 
+            xmax = 1.6432874643043078 
+            text = "n" 
+        intervals [28]:
+            xmin = 1.6432874643043078 
+            xmax = 1.7415202084957855 
+            text = "a" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "syll" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1146963326034438 
+            text = "ga" 
+        intervals [2]:
+            xmin = 0.1146963326034438 
+            xmax = 0.2601246969093154 
+            text = "bil" 
+        intervals [3]:
+            xmin = 0.2601246969093154 
+            xmax = 0.483845763887075 
+            text = "ʔams" 
+        intervals [4]:
+            xmin = 0.483845763887075 
+            xmax = 0.6619225916740561 
+            text = "rii" 
+        intervals [5]:
+            xmin = 0.6619225916740561 
+            xmax = 0.8871557766250362 
+            text = "taal" 
+        intervals [6]:
+            xmin = 0.8871557766250362 
+            xmax = 1.0119225916740788 
+            text = "xa" 
+        intervals [7]:
+            xmin = 1.0119225916740788 
+            xmax = 1.0719225916740243 
+            text = "ra" 
+        intervals [8]:
+            xmin = 1.0719225916740243 
+            xmax = 1.2379185182651327 
+            text = "ʒat" 
+        intervals [9]:
+            xmin = 1.2379185182651327 
+            xmax = 1.4127972265365543 
+            text = "maʕ" 
+        intervals [10]:
+            xmin = 1.4127972265365543 
+            xmax = 1.6048724246762731 
+            text = "laa" 
+        intervals [11]:
+            xmin = 1.6048724246762731 
+            xmax = 1.7415202084957855 
+            text = "na" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "Orthography/utterance" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7415202084957855 
+            text = "gabil 2ams ritaal xarajat ma3 laana" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "Comments" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7415202084957855 
+            text = "Narrow focus: final" 
+    item [8]:
+        class = "TextTier" 
+        name = "Tone" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        points: size = 3 
+        points [1]:
+            number = 0.3397408092528167 
+            mark = "L*" 
+        points [2]:
+            number = 1.4940192926117106 
+            mark = "L+H*" 
+        points [3]:
+            number = 1.7415202084957855 
+            mark = "L-L%" 
+    item [9]:
+        class = "TextTier" 
+        name = "Break-index" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        points: size = 0 
+    item [10]:
+        class = "IntervalTier" 
+        name = "Translation" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7415202084957855 
+            text = "Ritaal went out with Laana two days ago" 
+    item [11]:
+        class = "IntervalTier" 
+        name = "Miscellaneous" 
+        xmin = 0 
+        xmax = 1.7415202084957855 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7415202084957855 
+            text = "" 
