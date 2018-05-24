@@ -52,7 +52,7 @@ for i from 1 to numberOfFiles
 		Rename: "Smoothed 1"
 		
 		Save as text file: directory1$ + "/PitchFiles" + "/" + "'name$'_Corrected_Smoothed" + ".Pitch"
-		appendFileLine: "'results$'.xls", name$, tab$, tierLabel$, tab$, floor, tab$, ceiling
+		appendFileLine: "'results$'.xls", name$, tab$, tierLabel$, tab$, 'floor:2', tab$, 'ceiling:2'
 	endfor
 	select all
     minusObject: "Strings list"
