@@ -1,6 +1,4 @@
 
-Praat-f0-Accurate-Estimation
-
 The script "f0ComputationsSmoothing.praat" provides an automated method to accurately estimate f0 using Praat's autocorrelation method. 
 Starting from a sound file and a TextGrid, the script computes f0 using the two-pass method: first by estimating f0 broadly, then adapting 
 the floor and ceiling to a specific speaker's range. The script works iteratively through a folder and containing sounds files and TextGrids, 
