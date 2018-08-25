@@ -13,8 +13,4 @@ See the following references for more details on the method:
 * Al-Tamimi J. (2017). "Revisiting acoustic correlates of pharyngealization in Jordanian and Moroccan Arabic: Implications for formal representations". Laboratory Phonology: Journal of the Association for Laboratory Phonology, 8(1): 1-40.
 * Al-Tamimi, J., & Khattab, G. (under review). "Acoustic correlates of the voicing contrast in Lebanese Arabic singleton and geminate plosives". To appear in special issue of Journal of Phonetics, “Marking 50 Years of Research on Voice Onset Time and the Voicing Contrast in the World’s Languages" (eds., T. Cho, G. Docherty & D.H. Whalen).
 
-To cite the analyses, use: 
 
-[![DOI](https://zenodo.org/badge/134731119.svg)](https://zenodo.org/badge/latestdoi/134731119)
-
-And cite the articles above
