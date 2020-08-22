@@ -1,8 +1,8 @@
 
-The script "f0ComputationsSmoothing.praat" provides an automated method to accurately estimate f0 using Praat's autocorrelation method. 
+The script "f0ComputationsSmoothingAC.praat" or "f0ComputationsSmoothingCC.praat" provides an automated method to accurately estimate f0 using Praat. The first script uses the autocorrelation method for intonation, the second uses the cross-correlation method for voice quality.  
 Starting from a sound file and a TextGrid, the script computes f0 using the two-pass method: first by estimating f0 broadly, then adapting 
-the floor and ceiling to a specific speaker's range. The script works iteratively through a folder and containing sounds files and TextGrids, 
-then saves a fle with details of each of the floor and ceiling per "file" and speaker. The pitch object adapted to each speaker is saved 
+the floor and ceiling to a specific speaker's range. The script works iteratively through a folder containing sounds files and TextGrids, 
+then saves a file with details of each of the floor and ceiling per "file" and speaker. The pitch object adapted to each speaker is saved 
 alongside a smoothed pitch object.
 
 An example of a TextGrid and Sound file are provided in addition to an excel sheet. Sound file and TextGrid courtesy of Hajar Moussa.
