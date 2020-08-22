@@ -1,5 +1,6 @@
 ## 01 April 2011: version 1. Using autocorrelation pitch estimate (for details, see Al-Tamimi and Khattab, 2015, JASA, 138(1): 344–360).  
-## 25 May 2017: version 2. A few updates (for details, see Al-Tamimi and Khattab, under review, Journal of Phonetics, Special Issue on VOT) 
+## 25 May 2017: version 2. A few updates (for details, see Al-Tamimi and Khattab, 2018, Journal of Phonetics, Special Issue on VOT, Volume 71, pages: 306-325) 
+## This version coputes f0 based on the auto-correlation method. Use f0ComputationsSmoothingCC.praat for cross-correlation
 ## Estimation of Pitch is based on the two-pass method.
 
 
