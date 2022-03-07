@@ -1,4 +1,4 @@
-To access scripts and supporting documents, download the whole repository. You can access it by clicking on "View on GitHub" on top.
+To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-f0-Accurate-Estimation). You can access it by clicking on "View on GitHub" on top.
 
 The script "f0ComputationsSmoothingAC.praat" or "f0ComputationsSmoothingCC.praat" provides an automated method to accurately estimate f0 using Praat. The first script uses the autocorrelation method for intonation, the second uses the cross-correlation method for voice quality.  
 Starting from a sound file and a TextGrid, the script computes f0 using the two-pass method: first by estimating f0 broadly, then adapting 
