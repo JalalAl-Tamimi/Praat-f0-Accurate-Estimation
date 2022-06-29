@@ -2,6 +2,7 @@
 ## 25 May 2017: version 2. A few updates (for details, see Al-Tamimi and Khattab, 2018, Journal of Phonetics, Special Issue on VOT, Volume 71, pages: 306-325) 
 ## This version coputes f0 based on the auto-correlation method. Use f0ComputationsSmoothingCC.praat for cross-correlation
 ## Estimation of Pitch is based on the two-pass method.
+## 29 June 2022: Minor updates
 
 
 beginPause: "Accurate f0 estimation"
