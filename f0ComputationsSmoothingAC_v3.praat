@@ -1,0 +1,67 @@
+## 01 April 2011: version 1. Using autocorrelation pitch estimate (for details, see Al-Tamimi and Khattab, 2015, JASA, 138(1): 344–360).  
+## 25 May 2017: version 2. A few updates (for details, see Al-Tamimi and Khattab, 2018, Journal of Phonetics, Special Issue on VOT, Volume 71, pages: 306-325) 
+## This version coputes f0 based on the auto-correlation method. Use f0ComputationsSmoothingCC.praat for cross-correlation
+## Estimation of Pitch is based on the two-pass method.
+## 29 June 2022: Minor updates
+## 29 October 2024: Version 3: Uses the latest update in Praat's pitch analysis
+## Requires version 6.4 or above!
+
+
+beginPause: "Accurate f0 estimation"
+comment: "Where are your sound files?"
+sentence: "directory1", ""
+comment: "results file name?"
+sentence: "results", "Output_AC"
+comment: "Interval Tier containing utterances?"
+integer: "Tier", 1
+clicked = endPause: "OK", 1
+
+if directory1$ = ""
+	directory1$ = chooseDirectory$("Select your directory of sound files and TextGrids")
+endif
+
+clearinfo
+createDirectory: "PitchFiles"
+
+Create Strings as file list: "list", "'directory1$'\*.wav"
+
+numberOfFiles = Get number of strings
+appendFileLine: "'results$'.xls", "File name", tab$, "Sentence", tab$, "Floor", tab$, "Ceiling"
+
+for i from 1 to numberOfFiles
+	select Strings list
+   	fileName$ = Get string: i
+
+	Read from file: "'directory1$'\'fileName$'"
+	name$ = selected$ ("Sound")
+	Read from file: "'directory1$'\'name$'.TextGrid"
+   	nbIntervals = Get number of intervals: tier
+   	for j from 1 to nbIntervals
+   		selectObject: "TextGrid 'name$'"
+		tierLabel$ = Get label of interval: tier, j
+		selectObject: "Sound 'name$'"
+		noprogress To Pitch (filtered autocorrelation): 0, 50, 800, 15, "yes", 0.03, 0.09, 0.5, 0.055, 0.35, 0.14
+		Rename: "Pre"
+		q1 = Get quantile: 0, 0, 0.25, "Hertz"
+		q3 = Get quantile: 0, 0, 0.75, "Hertz"
+		floor = q1*0.75
+		ceiling = q3*1.5
+		selectObject: "Sound 'name$'"
+		noprogress To Pitch (filtered autocorrelation): 0.005, floor, ceiling, 15, "yes", 0.03, 0.09, 0.5, 0.055, 0.35, 0.14
+		Rename: "Speaker Adapted"
+		Save as text file: directory1$ + "/PitchFiles" + "/" + "'name$'_Corrected_Non_Smoothed_AC" + ".Pitch"
+
+		### smoothed pitch contours
+		Smooth: 15
+		Rename: "Smoothed 1"
+		
+		Save as text file: directory1$ + "/PitchFiles" + "/" + "'name$'_Corrected_Smoothed_AC" + ".Pitch"
+		appendFileLine: "'results$'.xls", name$, tab$, tierLabel$, tab$, 'floor:2', tab$, 'ceiling:2'
+	endfor
+	select all
+    minusObject: "Strings list"
+    Remove
+endfor
+select all
+Remove
+echo finished :)
