@@ -1,6 +1,11 @@
 To access scripts and supporting documents, download the whole repository from [here](https://github.com/JalalAl-Tamimi/Praat-f0-Accurate-Estimation). You can access it by clicking on "View on GitHub" on top.
 
-The script "f0ComputationsSmoothingAC.praat" or "f0ComputationsSmoothingCC.praat" provides an automated method to accurately estimate f0 using Praat. The first script uses the autocorrelation method for intonation, the second uses the cross-correlation method for voice quality.  
+There are two version of the scripts:
+
+1) The scripts "f0ComputationsSmoothingAC_v2.praat" or "f0ComputationsSmoothingCC_v2" are best to be used if you have a Praat version 6.3.22 or below.
+2) The scripts "f0ComputationsSmoothingAC_v3.praat" or "f0ComputationsSmoothingCC_v3" are to be used for any version of Praat above 6.4. These new versions use the updated Praat algorithm for detection of pitch
+
+The two variants of the scirpts use either the Autocorrelation method (AC) or Crosscorrelation (CC). They provide an automated method to accurately estimate f0 using Praat. The first script uses the autocorrelation method for intonation, the second uses the cross-correlation method for voice quality.  
 Starting from a sound file and a TextGrid, the script computes f0 using the two-pass method: first by estimating f0 broadly, then adapting 
 the floor and ceiling to a specific speaker's range. The script works iteratively through a folder containing sounds files and TextGrids, 
 then saves a file with details of each of the floor and ceiling per "file" and speaker. The pitch object adapted to each speaker is saved 
