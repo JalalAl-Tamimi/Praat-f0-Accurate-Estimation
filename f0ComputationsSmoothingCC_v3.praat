@@ -23,7 +23,7 @@ endif
 clearinfo
 createDirectory: "PitchFiles"
 
-Create Strings as file list: "list", "'directory1$'\*.wav"
+Create Strings as file list: "list", "'directory1$'/*.wav"
 
 numberOfFiles = Get number of strings
 appendFileLine: "'results$'.xls", "File name", tab$, "Sentence", tab$, "Floor", tab$, "Ceiling"
@@ -32,9 +32,9 @@ for i from 1 to numberOfFiles
 	select Strings list
    	fileName$ = Get string: i
 
-	Read from file: "'directory1$'\'fileName$'"
+	Read from file: "'directory1$'/'fileName$'"
 	name$ = selected$ ("Sound")
-	Read from file: "'directory1$'\'name$'.TextGrid"
+	Read from file: "'directory1$'/'name$'.TextGrid"
    	nbIntervals = Get number of intervals: tier
    	for j from 1 to nbIntervals
    		selectObject: "TextGrid 'name$'"
